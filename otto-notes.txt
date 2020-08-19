@@ -1,0 +1,5 @@
+Otto notes
+
+-taustaväriksi VS coden tummaharmaa, ja muita tunnistettavia värejä fontteihin (sininen, keltainen?)
+-projektit kuviksi/ikoneiksi, joista linkki toiselle sivulla jossa näkyvissä koko projektit
+-jatka boostrapilla

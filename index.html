@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Otto the Programmer</title>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/4e0aa7d82e.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+  <!-- Navbar -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="">OtheP</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#whatIDo">What I do</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#myWork">My work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#codeWithMe">Coding 101</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactMe">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Title -->
+
+  <div class="title row">
+    <div class="col-lg-12">
+      <h1 class="mainHeading">Hi. I'm Otto the Programmer.</h1>
+      <h4 class="mainSubHeading">I will code your world. For a fee, of course.</h4>
+      <button type="button" class="btn btn-lg btn-dark learnMore-button">Learn more about me</button>
+    </div>
+
+  </div>
+
+  <!-- What I do -->
+
+  <section class="white-section" id="whatIDo">
+    <h2 class="whatIDo-heading">Here's What I do</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="whatIDo-box col-lg-4">
+
+          <i class="fas fa-paint-brush"></i>
+          <h3 class="whatIDo-title">Web Design</h3>
+          <p>
+            so much lorem ipsum so much lorem ipsum so much lorem ipsum so
+            much lorem ipsum so much lorem ipsum
+          </p>
+
+        </div>
+        <div class="whatIDo-box col-lg-4">
+          <i class="fas fa-laptop-code"></i>
+          <h3 class="whatIDo-title">Development</h3>
+          <p>
+            so much lorem ipsum so much lorem ipsum so much lorem ipsum so
+            much lorem ipsum so much lorem ipsum
+          </p>
+        </div>
+        <div class="whatIDo-box col-lg-4">
+          <i class="fas fa-users"></i>
+          <h3 class="whatIDo-title">Agile methods</h3>
+          <p>
+            so much lorem ipsum so much lorem ipsum so much lorem ipsum so
+            much lorem ipsum so much lorem ipsum
+          </p>
+        </div>
+  </section>
+
+  <!-- Here's some of my work -->
+
+  <section class="colored-section" id="myWork">
+    <div class="container-fluid">
+      <div class="row">
+        <h3>My projects</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Code with me -->
+
+  <section id="codeWithMe"></section>
+  <div class="row">
+    <form name="codeForm" onsubmit="return checkCode()">
+      <label>Write your code here:</label>
+      <input type="text" name="yourCode" placeholder="robotto.wave();" />
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Run" />
+    </form>
+  </div>
+  <img class="robotto-still" src="images/perus.png" alt="robotto-hands-down" />
+
+  <!-- Contact -->
+
+  <section class="colored-section" id="Contact">
+
+    <div class="container-fluid">
+      <h3 class="big-heading">Here's my contact information</h3>
+      <p>Neulastie 8, 00410 Helsinki, GSM: +358 50 3331234, email: otto@ohjelmoija.fi</p>
+      <button type="button" class="btn btn-lg btn-dark download-button"><i class="fab fa-apple"></i>Email me
+        now</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="white-section" id="footer">
+
+    <div class="container-fluid">
+      <a href=""><i class="fab fa-twitter social-icon"></i></a>
+      <a href=""><i class="fab fa-facebook-f social-icon"></i></a>
+      <a href=""><i class="fab fa-instagram social-icon"></i></a>
+      <a href=""><i class="fas fa-envelope social-icon"></i></a>
+
+      <!-- JS script -->
+
+      <script src="index.js"></script>
+</body>
+
+</html>

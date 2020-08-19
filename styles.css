@@ -1,0 +1,78 @@
+h1 {
+  color: #bbe1fa;
+  font-family: "Monda", sans-serif;
+}
+
+h2 {
+  color: Black;
+}
+
+h4 {
+  color: white;
+  font-family: "Thasadith", sans-serif;
+}
+
+iframe {
+  height: 500px;
+  width: 2000px;
+}
+
+label {
+  color: white;
+}
+
+body {
+  background-color: #3f4441;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  padding: 400px 400px;
+}
+
+.mainHeading {
+  /* padding: 185px 30px; */
+}
+
+.mainSubHeading {}
+
+.whatIDo-heading {
+  padding: 50px 100px;
+}
+
+.white-section {
+  background-color: white;
+  color: black;
+  padding:
+
+}
+
+.colored-section {
+  text-align: center;
+  color: white;
+}
+
+.robotto-still {
+  height: 5rem;
+}
+
+#codeWithMe {
+  margin: 80px;
+}
+
+.fa-laptop-code {
+  font-size: 90px;
+}
+
+.fa-paint-brush {
+  font-size: 90px;
+}
+
+.fa-users {
+  font-size: 90px;
+}
+
+.learnMore-button {
+  margin: 50px;
+}
